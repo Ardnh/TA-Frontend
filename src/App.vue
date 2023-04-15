@@ -30,7 +30,7 @@
         </div>
       </div>
     </div>
-    <div v-if="detectionLists.length > 0" class="flex flex-wrap my-4 align-items-center justify-content-center w-full">
+    <!-- <div v-if="detectionLists.length > 0" class="flex flex-wrap my-4 align-items-center justify-content-center w-full">
       <div class="mx-3 text-white">Pilih nama daun yang terdeteksi</div>
       <Dropdown @change="getData" v-model="selectedItems" :options="medItems" filter optionLabel="name" placeholder="Pilih daun" class="">
             <template #value="slotProps">
@@ -42,7 +42,7 @@
                 </span>
             </template>
         </Dropdown>
-    </div>
+    </div> -->
     <div v-if="detectionLists.length > 0">
       <div class="mx-auto mt-4 w-10 p-3" v-for="item in selectedData" :key="item.title">
         <div class="text-2xl text-white font-bold">{{ item.name }}</div>
@@ -76,7 +76,7 @@ import axios from 'axios'
 import FileUpload from 'primevue/fileupload';
 import Image from 'primevue/image'
 import Toast from 'primevue/toast';
-import Dropdown from 'primevue/dropdown';
+// import Dropdown from 'primevue/dropdown';
 import ProgressSpinner from 'primevue/progressspinner'
 import { data, items } from './utils/data.js'
 import { useToast } from "primevue/usetoast";
@@ -84,7 +84,7 @@ import { useToast } from "primevue/usetoast";
 const toast = useToast();
 const baseUrl = ref("http://localhost:8000")
 const medData = ref(data)
-const medItems = ref(items)
+// const medItems = ref(items)
 const selectedItems = ref(null)
 const selectedData = ref([])
 const isLoading = ref(false)
@@ -97,9 +97,9 @@ const running = ref(false)
 const detectionLists = ref([])
 
 
-const getData = () => {
+const getData = (id) => {
   selectedData.value = []
-  const select = medData.value.find(item => item.id === selectedItems.value.id)
+  const select = medData.value.find(item => item.id === id)
   selectedData.value.push(select)
 }
 
@@ -175,20 +175,23 @@ const onUploadFile = async (files) => {
 
   try {
     axios.post(`${ baseUrl.value }/predict`, formData, {
-      timeout: 30000,
+      timeout: 200000,
       headers: {
         "Content-Type": "multipart/form-data",
       }
     })
     .then(resp => {
       stopTimer()
+      let class_id = resp.data.class_name.id
       isLoading.value = false
       detectionLists.value.push({
         predicted_image_path: `${ baseUrl.value + resp.data.predicted_image_path }`,
         original_image_path: `${ baseUrl.value + '/' + resp.data.original_image_path }`,
       })
+      getData(class_id)
     })
     .catch(err => {
+      console.log(err)
       if (err.message) {
         toast.add({ severity: 'warn', summary: 'Warning', detail: 'Waktu deteksi telah habis!', life: 3000 });
         stopTimer()

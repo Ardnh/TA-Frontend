@@ -1,6 +1,47 @@
 export const data = [
     {
         id: 1,
+        name: "Daun Mimba",
+        history: "Mimba atau Daun Mimba atau Azadirachta indica A. Juss. adalah daun-daun yang tergolong dalam tanaman perdu/terna yang pertama kali ditemukan didaerah Hindustani, di Madhya Pradesh, India. Mimba datang atau tersebar ke Indonesia diperkirakan sejak tahun 1.500 dengan daerah penanaman utama adalah di Pulau Jawa. Tumbuh di daerah tropis, pada dataran rendah. Tanaman ini tumbuh di daerah Jawa Barat, Jawa Timur, dan Madura pada ketinggian sampai dengan 300 mdpl, tumbuh di tempat kering berkala, sering ditemukan di tepi jalan atau di hutan terang.",
+        benefit: [
+            {
+                name: "Penyembuh Luka",
+                desc : "Ekstrak daun mimba dapat mempercepat penyembuhan luka melalui peningkatan respons inflamasi dan pembentukan pembuluh darah baru. Buatlah pasta dari daun ini dan oleskan pada luka atau gigitan serangga beberapa kali sehari sampai sembuh."
+            },
+            {
+                name: "Menghilangkan Ketombe",
+                desc: "Bingung mengatasi masalah ketombe? Kamu bisa coba daun mimba. Daun ini adalah salah satu obat tradisional untuk infeksi jamur di kulit kepala, yang menyebabkan ketombe."
+            },
+            {
+                name: "Mengatasi Masalah Mata",
+                desc: "Ekstrak daun mimba juga bisa digunakan untuk mengatasi berbagai masalah pada mata. Cara menggunakannya, rebus beberapa daun mimba, biarkan airnya benar-benar dingin lalu gunakan untuk mencuci mata. Ini akan membantu segala jenis iritasi, kelelahan atau kemerahan pada mata."
+            },
+            {
+                name: "Mengobati Jerawat",
+                desc: "Jerawat membandel di kulit wajah bisa menurunkan rasa percaya diri. Untungnya, ada banyak pilihan pengobatan alami untuk jerawat, termasuk dengan daun mimba."
+            },
+            {
+                name: "Mengatasi Bisul Telinga",
+                desc: "Bisul telinga bisa sangat menyakitkan dan mengganggu. Salah satu obat alaminya adalah daun mimba. Campurkan beberapa helai daun mimba dan tambahkan madu ke dalamnya. Gunakan beberapa tetes campuran ini untuk mengobati bisul telinga."
+            },
+            {
+                name: "Mengobati Berbagai Gangguan Kulit",
+                desc: "daun mimba juga sering diugnakan sebagai pengobatan untuk berbagai gangguan kulit. Kunyit yang dikombinasikan dengan pasta daun mimba juga dapat digunakan untuk gatal-gatal, eksim, cacing gelang dan beberapa penyakit kulit ringan."
+            }
+        ],
+        reference: [
+            {
+                label: "Ini manfaat dan khasiat daun mimba yang jarang diketahui",
+                url: "https://www.halodoc.com/artikel/ini-manfaat-dan-khasiat-daun-mimba-yang-jarang-diketahui"
+            },
+            {
+                label: "Mimba",
+                url: "https://id.wikipedia.org/wiki/Mimba"
+            }
+        ]
+    },
+    {
+        id: 2,
         name: "Daun Mint",
         history: "Min (bahasa Inggris: mint, dari bahasa Yunani: μίνθα, translit. míntha; nama ilmiah Mentha) adalah genus tumbuhan dalam famili Lamiaceae. Pembagian spesies dalam genus Mentha tidak memiliki batasan yang jelas. Tumbuhan min tersebar luas dan merata di Eropa, Afrika, Asia, Australia, dan Amerika Utara. Kebanyakan tumbuh dengan baik di lingkungan yang basah dengan tanah yang lembab. Tanaman min dapat tumbuh setinggi 10–120 cm dan dapat menyebar ke segala tempat, termasuk tempa-tempat yang tidak diperuntukkan bagi tanaman ini. Karena sifat ini, min sering dianggap sebagai tumbuhan invasif. Daun mint sering digunakan atau diolah sebagai makanan, minuman, pasta gigi, permen karet, dan permen.",
         benefit: [
@@ -61,85 +102,7 @@ export const data = [
         ]
     },
     {
-        id: 2,
-        name: "Daun Mimba",
-        history: "Mimba atau Daun Mimba atau Azadirachta indica A. Juss. adalah daun-daun yang tergolong dalam tanaman perdu/terna yang pertama kali ditemukan didaerah Hindustani, di Madhya Pradesh, India. Mimba datang atau tersebar ke Indonesia diperkirakan sejak tahun 1.500 dengan daerah penanaman utama adalah di Pulau Jawa. Tumbuh di daerah tropis, pada dataran rendah. Tanaman ini tumbuh di daerah Jawa Barat, Jawa Timur, dan Madura pada ketinggian sampai dengan 300 mdpl, tumbuh di tempat kering berkala, sering ditemukan di tepi jalan atau di hutan terang.",
-        benefit: [
-            {
-                name: "Penyembuh Luka",
-                desc : "Ekstrak daun mimba dapat mempercepat penyembuhan luka melalui peningkatan respons inflamasi dan pembentukan pembuluh darah baru. Buatlah pasta dari daun ini dan oleskan pada luka atau gigitan serangga beberapa kali sehari sampai sembuh."
-            },
-            {
-                name: "Menghilangkan Ketombe",
-                desc: "Bingung mengatasi masalah ketombe? Kamu bisa coba daun mimba. Daun ini adalah salah satu obat tradisional untuk infeksi jamur di kulit kepala, yang menyebabkan ketombe."
-            },
-            {
-                name: "Mengatasi Masalah Mata",
-                desc: "Ekstrak daun mimba juga bisa digunakan untuk mengatasi berbagai masalah pada mata. Cara menggunakannya, rebus beberapa daun mimba, biarkan airnya benar-benar dingin lalu gunakan untuk mencuci mata. Ini akan membantu segala jenis iritasi, kelelahan atau kemerahan pada mata."
-            },
-            {
-                name: "Mengobati Jerawat",
-                desc: "Jerawat membandel di kulit wajah bisa menurunkan rasa percaya diri. Untungnya, ada banyak pilihan pengobatan alami untuk jerawat, termasuk dengan daun mimba."
-            },
-            {
-                name: "Mengatasi Bisul Telinga",
-                desc: "Bisul telinga bisa sangat menyakitkan dan mengganggu. Salah satu obat alaminya adalah daun mimba. Campurkan beberapa helai daun mimba dan tambahkan madu ke dalamnya. Gunakan beberapa tetes campuran ini untuk mengobati bisul telinga."
-            },
-            {
-                name: "Mengobati Berbagai Gangguan Kulit",
-                desc: "daun mimba juga sering diugnakan sebagai pengobatan untuk berbagai gangguan kulit. Kunyit yang dikombinasikan dengan pasta daun mimba juga dapat digunakan untuk gatal-gatal, eksim, cacing gelang dan beberapa penyakit kulit ringan."
-            }
-        ],
-        reference: [
-            {
-                label: "Ini manfaat dan khasiat daun mimba yang jarang diketahui",
-                url: "https://www.halodoc.com/artikel/ini-manfaat-dan-khasiat-daun-mimba-yang-jarang-diketahui"
-            },
-            {
-                label: "Mimba",
-                url: "https://id.wikipedia.org/wiki/Mimba"
-            }
-        ]
-    },
-    {
         id: 3,
-        name: "Daun Jambu",
-        history: "Jambu biji (Psidium guajava) atau sering juga disebut jambu batu, jambu siki dan jambu klutuk adalah tanaman tropis yang berasal dari Brasil, disebarkan ke Indonesia melalui Thailand. Jambu batu memiliki buah yang berwarna hijau dengan daging buah berwarna hijau atau merah dan berasa asam-manis. Buah jambu batu dikenal mengandung banyak vitamin C.",
-        benefit: [
-            {
-                name: "Menyehatkan sistem pencernaan",
-                desc: "Ekstrak atau teh herbal daun jambu biji sejak lama digunakan untuk mengatasi berbagai masalah pencernaan, termasuk diare, sembelit, perut kembung, dan nyeri lambung."
-            },
-            {
-                name: "Meringankan nyeri menstruasi",
-                desc: "Beberapa penelitian menunjukkan bahwa mengonsumsi ekstrak daun jambu biji dapat mengurangi gejala nyeri menstruasi, misalnya kram perut. Khasiatnya ini bahkan dinilai sama efektifnya dengan obat pereda rasa sakit, seperti ibuprofen."
-            },
-            {
-                name: "Menurunkan kadar gula darah",
-                desc: "Daun jambu biji juga bisa dimanfaatkan untuk menurunkan kadar gula darah, baik penderita diabetes maupun orang yang berisiko mengalami diabetes. Beberapa penelitian menyatakan bahwa mengonsumsi teh daun jambu biji setelah makan dapat menekan lonjakan kadar gula darah."
-            },
-            {
-                name: "Menjaga kesehatan jantung",
-                desc: "Selain mencegah dan mengatasi diabetes, kandungan dalam ekstrak daun jambu biji juga memiliki efek menurunkan tekanan darah dan kolesterol jahat, serta meningkatkan kolesterol baik."
-            },
-            {
-                name: "Menghambat pertumbuhan sel kanker",
-                desc: "Daun jambu biji mengandung zat yang bersifat antikanker. Beberapa riset menunjukkan bahwa ekstrak daun jambu biji dapat menghambat pertumbuhan sel kanker, termasuk kanker prostat, kanker usus besar, leukemia, dan melanoma."
-            }
-        ],
-        reference: [
-            {
-                label: "5 Manfaat Daun Jambu Biji untuk Kesehatan",
-                url: "https://www.alodokter.com/ambil-manfaat-daun-jambu-biji-tidak-hanya-buahnya"
-            },
-            {
-                label: "Jambu biji",
-                url: "https://id.wikipedia.org/wiki/Jambu_biji"
-            }
-        ]
-    },
-    {
-        id: 4,
         name: "Daun Kelor",
         history: "Kelor atau merunggai (Moringa oleifera) adalah sejenis tumbuhan dari suku Moringaceae. Tumbuhan ini dikenal dengan nama lain seperti: limaran, moringa, ben-oil (dari minyak yang bisa diekstrak dari bijinya), drumstick (dari bentuk rumah benihnya yang panjang dan ramping), horseradish tree (dari bentuk akarnya yang mirip tanaman horseradish), dan malunggay di Filipina. Kelor adalah tanaman yang bisa tumbuh dengan cepat, berumur panjang, berbunga sepanjang tahun, dan tahan kondisi panas ekstrim. Tanaman ini berasal dari daerah tropis dan subtropis di Asia Selatan. Kelor umum digunakan sebagai bahan makanan dan obat di Indonesia. Biji kelor juga digunakan sebagai penjernih air skala kecil",
         benefit: [
@@ -198,7 +161,45 @@ export const data = [
                 url: "https://id.wikipedia.org/wiki/Kelor"
             },
         ]
-    }
+    },
+    {
+        id: 4,
+        name: "Daun Jambu Biji",
+        history: "Jambu biji (Psidium guajava) atau sering juga disebut jambu batu, jambu siki dan jambu klutuk adalah tanaman tropis yang berasal dari Brasil, disebarkan ke Indonesia melalui Thailand. Jambu batu memiliki buah yang berwarna hijau dengan daging buah berwarna hijau atau merah dan berasa asam-manis. Buah jambu batu dikenal mengandung banyak vitamin C.",
+        benefit: [
+            {
+                name: "Menyehatkan sistem pencernaan",
+                desc: "Ekstrak atau teh herbal daun jambu biji sejak lama digunakan untuk mengatasi berbagai masalah pencernaan, termasuk diare, sembelit, perut kembung, dan nyeri lambung."
+            },
+            {
+                name: "Meringankan nyeri menstruasi",
+                desc: "Beberapa penelitian menunjukkan bahwa mengonsumsi ekstrak daun jambu biji dapat mengurangi gejala nyeri menstruasi, misalnya kram perut. Khasiatnya ini bahkan dinilai sama efektifnya dengan obat pereda rasa sakit, seperti ibuprofen."
+            },
+            {
+                name: "Menurunkan kadar gula darah",
+                desc: "Daun jambu biji juga bisa dimanfaatkan untuk menurunkan kadar gula darah, baik penderita diabetes maupun orang yang berisiko mengalami diabetes. Beberapa penelitian menyatakan bahwa mengonsumsi teh daun jambu biji setelah makan dapat menekan lonjakan kadar gula darah."
+            },
+            {
+                name: "Menjaga kesehatan jantung",
+                desc: "Selain mencegah dan mengatasi diabetes, kandungan dalam ekstrak daun jambu biji juga memiliki efek menurunkan tekanan darah dan kolesterol jahat, serta meningkatkan kolesterol baik."
+            },
+            {
+                name: "Menghambat pertumbuhan sel kanker",
+                desc: "Daun jambu biji mengandung zat yang bersifat antikanker. Beberapa riset menunjukkan bahwa ekstrak daun jambu biji dapat menghambat pertumbuhan sel kanker, termasuk kanker prostat, kanker usus besar, leukemia, dan melanoma."
+            }
+        ],
+        reference: [
+            {
+                label: "5 Manfaat Daun Jambu Biji untuk Kesehatan",
+                url: "https://www.alodokter.com/ambil-manfaat-daun-jambu-biji-tidak-hanya-buahnya"
+            },
+            {
+                label: "Jambu biji",
+                url: "https://id.wikipedia.org/wiki/Jambu_biji"
+            }
+        ]
+    },
+    
 ]
 
 export const items = [
