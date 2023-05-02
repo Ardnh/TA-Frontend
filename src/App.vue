@@ -30,19 +30,6 @@
         </div>
       </div>
     </div>
-    <!-- <div v-if="detectionLists.length > 0" class="flex flex-wrap my-4 align-items-center justify-content-center w-full">
-      <div class="mx-3 text-white">Pilih nama daun yang terdeteksi</div>
-      <Dropdown @change="getData" v-model="selectedItems" :options="medItems" filter optionLabel="name" placeholder="Pilih daun" class="">
-            <template #value="slotProps">
-                <div v-if="slotProps.value" class="flex align-items-center">
-                    <div>{{ slotProps.value.name }}</div>
-                </div>
-                <span v-else>
-                    {{ slotProps.placeholder }}
-                </span>
-            </template>
-        </Dropdown>
-    </div> -->
     <div v-if="detectionLists.length > 0">
       <div class="mx-auto mt-4 w-10 p-3" v-for="item in selectedData" :key="item.title">
         <div class="text-2xl text-white font-bold">{{ item.name }}</div>
@@ -62,7 +49,7 @@
         <div class="mt-3 bg-indigo-900 p-4 border-round-md ">
           <div class="text-xl text-white font-bold">Sumber</div>
           <div v-for="item,i in item.reference" :key="i">
-            <div @click="openUrl(item.url)" class="cursor-pointer text-md text-white font-normal mt-2">- {{ item.label }}</div>
+            <div class="cursor-pointer text-md text-white font-normal mt-2">- {{ item.ref }}</div>
           </div>
         </div>
       </div>
@@ -101,10 +88,6 @@ const getData = (id) => {
   selectedData.value = []
   const select = medData.value.find(item => item.id === id)
   selectedData.value.push(select)
-}
-
-const openUrl = (url) => {
-  window.open(url)
 }
 
 const startTimer = () => {
@@ -175,7 +158,7 @@ const onUploadFile = async (files) => {
 
   try {
     axios.post(`${ baseUrl.value }/predict`, formData, {
-      timeout: 200000,
+      timeout: 180000,
       headers: {
         "Content-Type": "multipart/form-data",
       }

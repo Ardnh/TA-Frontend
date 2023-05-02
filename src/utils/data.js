@@ -2,200 +2,196 @@ export const data = [
     {
         id: 1,
         name: "Daun Mimba",
-        history: "Mimba atau Daun Mimba atau Azadirachta indica A. Juss. adalah daun-daun yang tergolong dalam tanaman perdu/terna yang pertama kali ditemukan didaerah Hindustani, di Madhya Pradesh, India. Mimba datang atau tersebar ke Indonesia diperkirakan sejak tahun 1.500 dengan daerah penanaman utama adalah di Pulau Jawa. Tumbuh di daerah tropis, pada dataran rendah. Tanaman ini tumbuh di daerah Jawa Barat, Jawa Timur, dan Madura pada ketinggian sampai dengan 300 mdpl, tumbuh di tempat kering berkala, sering ditemukan di tepi jalan atau di hutan terang.",
+        history: "Tanaman mimba yang memiliki nama asli Azadirachta indica ini banyak ditemukan di negara tropis seperti India, Pakistan, Kamboja, Laos, Myanmar, Thailand, dan Vietnam. Pohon mimba memiliki ketinggian sekitar 15 - 20 meter. Daun ini selalu hijau dan merontokkan daun saat musim kering. Daunnya menyirip dan panjangnya 20 – 40 cm. Bunga pohon mimba berwarna putih kekuningan dan harum dengan batang dan cabang yang panjangnya mencapai 25 cm.",
         benefit: [
             {
-                name: "Penyembuh Luka",
-                desc : "Ekstrak daun mimba dapat mempercepat penyembuhan luka melalui peningkatan respons inflamasi dan pembentukan pembuluh darah baru. Buatlah pasta dari daun ini dan oleskan pada luka atau gigitan serangga beberapa kali sehari sampai sembuh."
+                name: "Mengatasi kutu rambut",
+                desc: "Daun Mimba mengandung senyawa bernama azadirachtin yang membantu melawan parasit yang ada di kulit kepala, seperti kutu. Senyawa ini bekerja dengan cara mengganggu pertumbuhan dan reproduksi kutu agar tidak bertambah banyak. Sebuah studi terbitan Parasitology Research (2011) menemukan bahwa sampo berbahan dasar mimba membunuh kutu pada anak-anak bila digunakan selama 10 menit. Bahan ini juga lembut untuk kulit kepala."
             },
             {
-                name: "Menghilangkan Ketombe",
-                desc: "Bingung mengatasi masalah ketombe? Kamu bisa coba daun mimba. Daun ini adalah salah satu obat tradisional untuk infeksi jamur di kulit kepala, yang menyebabkan ketombe."
+                name: "Menjaga kesehatan gigi dan mulut",
+                desc: "Penelitian terbitan Journal of Indian Society of Periodontology (2011) menemukan, obat kumur daun Mimba bisa mengurangi radang gusi dan plak gigi. Efeknya bahkan mirip dengan obat kumur gigi berbahan chlorhexidine."
             },
             {
-                name: "Mengatasi Masalah Mata",
-                desc: "Ekstrak daun mimba juga bisa digunakan untuk mengatasi berbagai masalah pada mata. Cara menggunakannya, rebus beberapa daun mimba, biarkan airnya benar-benar dingin lalu gunakan untuk mencuci mata. Ini akan membantu segala jenis iritasi, kelelahan atau kemerahan pada mata."
+                name: "Mempercepat penyembuhan luka",
+                desc: "Daun Mimba juga diteliti bisa mempercepat penyembuhan luka dengan cara membentuk pembuluh darah yang baru. Studi juga menemukan bahwa mengoles 100 gram minyak esensial daun mimba selama 34 hari membantu menyembuhkan luka kulit kronis, tetapi belum diketahui cara kerjanya"
             },
             {
-                name: "Mengobati Jerawat",
-                desc: "Jerawat membandel di kulit wajah bisa menurunkan rasa percaya diri. Untungnya, ada banyak pilihan pengobatan alami untuk jerawat, termasuk dengan daun mimba."
+                name: "Menjaga kesehatan liver dan ginjal",
+                desc: "Studi hewan menemukan bahwa ekstrak daun Mimba mengurangi penyakit hati akibat kerusakan yang disebabkan oleh parasetamol dosis tinggi. Pada riset yang berbeda, ekstrak daun ini juga memperbaiki kerusakan ginjal akibat pengobatan kanker kemoterapi. Efek ini berasal dari beberapa senyawa, seperti limonoid, azadirone, quercetin, coumarin, dan tanin. Namun, penelitian ini masih terbatas dan belum diuji pada manusia."
             },
             {
-                name: "Mengatasi Bisul Telinga",
-                desc: "Bisul telinga bisa sangat menyakitkan dan mengganggu. Salah satu obat alaminya adalah daun mimba. Campurkan beberapa helai daun mimba dan tambahkan madu ke dalamnya. Gunakan beberapa tetes campuran ini untuk mengobati bisul telinga."
+                name: "Mengatasi jerawat",
+                desc: "Manfaat daun mimba dipercaya sejak lama sebagai obat alami jerawat. Studi menemukan bahwa minyak daun mimba yang dicampur dengan senyawa bernama nanopartikel lipid padat bisa menghambat pertumbuhan bakteri penyebab jerawat."
             },
             {
-                name: "Mengobati Berbagai Gangguan Kulit",
-                desc: "daun mimba juga sering diugnakan sebagai pengobatan untuk berbagai gangguan kulit. Kunyit yang dikombinasikan dengan pasta daun mimba juga dapat digunakan untuk gatal-gatal, eksim, cacing gelang dan beberapa penyakit kulit ringan."
+                name: "Menangkal radikal bebas",
+                desc: "Daun mimba mengandung banyak senyawa, seperti quercetin, asam askorbat, dan beta-sitosterol. Semua komponen tersebut merupakan sumber antioksidan. Antioksidan membantu menangkal efek radikal bebas. Radikal bebas bisa merusak sel-sel tubuh dan meningkatkan risiko penyakit kronis, seperti penyakit jantung, diabetes, hingga kanker."
+            },
+            {
+                name: "Menurunkan resiko kanker",
+                desc: "Daun Mimba mengandung flavonoid yang mengurangi pertumbuhan dan penggandaan sel-sel kanker. Selain itu, daun ini mengandung limonoid yang menghambat pertumbuhan sel kanker serviks. Limonoid juga membantu mematikan sel kanker payudara dan serviks. Daun ini juga menjaga keseimbangan sistem imun agar menurunkan risiko kanker."
+            },
+            {
+                name: "Mengendalikan gula darah",
+                desc: "Studi hewan menunjukkan bahwa manfaat daun mimba berpotensi mengendalikan kadar gula darah pada pasien diabetes. Sebagai obat alami diabetes, daun ini membantu mengaktifkan kembali sel-sel yang memproduksi insulin atau hormon penurun kadar gula darah. "
+            },
+            {
+                name: "Mengatasi infeksi kulit",
+                desc: "Daun Mimba mengandung senyawa bernama azadirachtin yang bersifat antibakteri. Studi di laboratorium menemukan bahwa senyawa ini melawan bakteri Staphylococcus aureus yang bisa memicu nanah di kulit.Selain itu, daun ini berpotensi melawan infeksi jamur, seperti kurap dan kutu air."
+            },
+            {
+                name: "Bersifat antimalaria",
+                desc: "Khasiat daun mimba mengandung senyawa bernama limonoid. Studi pada hewan menemukan bahwa limonoid bekerja efektif pada sel yang terinfeksi malaria dan seperti pengobatan menggunakan klorokuin."
             }
         ],
         reference: [
             {
-                label: "Ini manfaat dan khasiat daun mimba yang jarang diketahui",
-                url: "https://www.halodoc.com/artikel/ini-manfaat-dan-khasiat-daun-mimba-yang-jarang-diketahui"
+                ref: "Wulandari Larastining Retno. 2023. 'Daun Mimba, Ketahui 10 Manfaatnya untuk Kesehatan'. Available: https://hellosehat.com/herbal-alternatif/herbal/manfaat-daun-mimba/. [ Accessed 2 Mei 2023 ]"
             },
-            {
-                label: "Mimba",
-                url: "https://id.wikipedia.org/wiki/Mimba"
-            }
         ]
     },
     {
         id: 2,
-        name: "Daun Mint",
-        history: "Min (bahasa Inggris: mint, dari bahasa Yunani: μίνθα, translit. míntha; nama ilmiah Mentha) adalah genus tumbuhan dalam famili Lamiaceae. Pembagian spesies dalam genus Mentha tidak memiliki batasan yang jelas. Tumbuhan min tersebar luas dan merata di Eropa, Afrika, Asia, Australia, dan Amerika Utara. Kebanyakan tumbuh dengan baik di lingkungan yang basah dengan tanah yang lembab. Tanaman min dapat tumbuh setinggi 10–120 cm dan dapat menyebar ke segala tempat, termasuk tempa-tempat yang tidak diperuntukkan bagi tanaman ini. Karena sifat ini, min sering dianggap sebagai tumbuhan invasif. Daun mint sering digunakan atau diolah sebagai makanan, minuman, pasta gigi, permen karet, dan permen.",
+        name: "Daun Min",
+        history: "Min adalah salah satu ramuan kuliner tertua yang dikenal umat manusia. Sifat obatnya yang luar biasa telah menjadikannya salah satu herbal yang paling umum dikenal dan digunakan. Berbagai negara kerap memakai daun min dan tak asing dengan olahannya. Menurut Ahli Nutrisi Makrobiotik dan Praktisi Kesehatan Shilpa Arora ND, min memiliki sifat antioksidan yang sangat kuat. Daunnya dapat dijus atau dibuat menjadi sirup.",
         benefit: [
             {
-                name: "Menjaga kesehatan gigi dan mulut",
-                desc : "Pasta gigi atau obat kumur yang mengandung daun mint dapat memberikan efek segar pada mulut dan pernapasan. Tak hanya itu, penelitian juga mengungkapkan bahwa daun mint dalam pasta gigi dan obat kumur memiliki efek antibakteri yang dapat membunuh bakteri penyebab bau mulut dan masalah di gigi, gusi, serta mulut."
+                name: "Membantu pencernaan",
+                desc: "Min dapat bekerja sangat baik untuk hampir semua masalah pencernaan Anda. Menurut buku 'Healing Foods' oleh DK Publishing, mentol, yang merupakan minyak aktif dalam min, memiliki sifat antiseptik dan antibakteri yang membantu meredakan gangguan pencernaan dan juga menenangkan sakit perut."
             },
             {
-                name: "Meringankan kram menstruasi",
-                desc : "Manfaat daun mint selanjutnya adalah memberi efek relaksasi pada otot yang juga efektif dalam mengatasi kram menstruasi. Hal ini didukung oleh sebuah studi yang menyebutkan bahwa mengonsumsi ekstrak daun mint sama efektifnya dengan obat pereda nyeri haid dalam mengurangi keparahan dan durasi kram saat menstruasi."
+                name: "Mengobati asma",
+                desc: "Konsumsi min juga telah dikaitkan dengan membawa efek menenangkan bagi pasien asma. Min sarat dengan sifat anti-inflamasi. Ini adalah relaksan yang baik dan mengurangi kemacetan. Namun, pastikan Anda tidak berlebihan dosis min Anda, yang lain dapat mengiritasi saluran udara Anda."
             },
             {
-                name: "Meringankan iritasi usus",
-                desc : "Kapsul minyak daun mint diketahui efektif dalam meredakan keluhan akibat gangguan pencernaan, seperti mual, gas berlebih, dan perut kembung. Lebih jauh lagi, minyak daun mint bahkan dapat meredakan gejala irritable bowel syndrome (IBS), yaitu gangguan kronis yang menyerang usus besar."
+                name: "Mengobati pilek",
+                desc: "Min dikenal untuk membersihkan hidung tersumbat, tenggorokan, bronkus, dan paru-paru. Selain saluran pernapasan, sifat anti-inflamasi min juga meredakan iritasi yang disebabkan oleh batuk kronis"
             },
             {
-                name: "Meredakan sakit kepala",
-                desc: "Daun mint mengandung senyawa aktif menthol yang dipercaya dapat meredakan sakit kepala akibat migrain maupun sakit kepala tegang. Kandungan menthol dalam daun mint akan meningkatkan aliran darah dan memberikan sensasi dingin. Kedua manfaat inilah yang diyakini dapat mengurangi sakit kepala. Manfaat daun mint yang satu ini bisa Anda dapatkan dengan mengoleskan minyak daun mint di dahi atau pelipis."
+                name: "Menyembuhkan sakit kepala",
+                desc: "Menurut buku 'Healing Foods', min juga dapat membantu menyembuhkan sakit kepala. Aroma min yang kuat dan menyegarkan dapat membantu meredakan sakit kepala. Balsem dengan bahan dasar min atau minyak dasar min, bila dioleskan di dahi dan hidung, efektif menyembuhkan sakit kepala dan mual"
             },
             {
-                name: "Meningkatkan konsentrasi",
-                desc: "Mengonsumsi daun mint utuh atau menghirup aroma minyak daun mint dipercaya dapat meningkatkan fungsi otak, terutama dalam berkonsentrasi dan mengingat. Selain itu, manfaat daun mint juga berpotensi untuk mengurangi gejala penyakit Alzheimer. Namun, masih dibutuhkan penelitian lebih lanjut untuk memastikan efektivitas daun mint ini."
+                name: "Perawatan mulut",
+                desc: "Mengunyah tablet min atau daun min dapat membantu menyegarkan napas Anda secara instan karena adanya sifat kuman. Ini juga memberikan keajaiban bagi kesehatan mulut kita secara keseluruhan. Ini menghambat pertumbuhan bakteri di dalam mulut, dan membersihkan deposisi plak pada gigi. Inilah alasan mengapa begitu banyak pasta gigi di pasaran juga datang dalam basis min."
             },
             {
-                name: "Melegakan hidung tersumbat",
-                desc: "Efek antivirus, antibakteri, dan antiperadangan yang dimiliki oleh daunt mint dapat melawan virus penyebab flu dan hidung tersumbat. Selain itu, sensasi menthol menyegarkan dalam daun mint juga dapat melegakan pernapasan."
+                name: "Menurunkan berat badan",
+                desc: "Min juga bisa memainkan peran manisnya sendiri dalam penurunan berat badan, dan alasannya terkait dengan sifat pencernaannya yang sangat terkenal. Min merangsang enzim pencernaan, yang membantu memfasilitasi penyerapan nutrisi yang lebih baik dari makanan. Ketika tubuh mampu mengasimilasi dan menyerap nutrisi dengan baik, ada metabolisme yang lebih baik. Metabolisme yang lebih cepat membantu penurunan berat badan"
             },
             {
-                name: "Mengurangi kekambuhan alergi",
-                desc: "Daun mint mengandung asam rosmanirik yang diketahui dapat mengurangi gejala reaksi alergi, seperti hidung berair, mata gatal, dan asma. Sebuah penelitian menunjukkan bahwa mengonsumsi suplemen maupun ekstrak daun mint berfungsi untuk menurunkan kekambuhan alergi."
+                name: "Meningkatkan kekuatan otak",
+                desc: "Min juga bisa meningkatkan kekuatan otak Anda. Menurut berbagai penelitian, mengkonsumsi min dapat meningkatkan kewaspadaan, retensi, dan fungsi kognitif. Salah satu penelitian juga mengaitkan efek konsumsi min dengan retensi memori yang lebih baik."
             },
             {
-                name: "Menekan nafsu makan",
-                desc: "Penelitian menunjukkan bahwa mengonsumsi kapsul minyak daun mint berfungsi untuk menekan nafsu makan. Selain itu, teh daun mint juga tidak mengandung kalori, sehingga bisa menjadi alternatif minuman selama Anda menjalani program penurunan berat badan."
+                name: "Perawatan kulit",
+                desc: "Min adalah obat tradisional untuk mengobati jerawat dan jerawat. Ini memiliki sifat anti-inflamasi dan anti-bakteri yang ampuh yang bekerja sangat baik pada kulit berjerawat. Daun min mengandung kandungan asam salisilat yang tinggi, yang sangat baik dalam memerangi tindakan jerawat juga. Jus yang diperoleh dari min bekerja sebagai pembersih kulit yang efektif."
             },
             {
-                name: "Mengurangi sakit perut",
-                desc: "Minyak daun mint dapat membantu mengurangi sakit perut dengan merelaksasi otot perut. Tak hanya itu, daun mint bahkan diduga dapat meredakan mual dan muntah akibat menjalani prosedur kemoterapi."
+                name: "Meringankan gejala morning sickness atau mual",
+                desc: "Min adalah obat yang sangat baik untuk mengobati mual. Ini juga efektif untuk mengobati mual yang terjadi pada morning sickness. Menurut Shilpa Arora, 'Makan beberapa daun atau mencium beberapa daun min setiap pagi, dapat membantu ibu hamil untuk mengatasi rasa mual dan mengatasi lebih baik.'"
             },
             {
-                name: "Mencegah kantuk",
-                desc: "Jika Anda cukup sering mengantuk saat beraktivitas, cobalah menghirup aroma atau menyeduh teh daun mint. Aroma daun mint yang menyegarkan dipercaya dapat mengatasi kelelahan dan membuat Anda terjaga. Selain itu, aroma mint juga bisa memperbaiki suasana hati dan membuat Anda makin semangat bekerja."
-            },
-            {
-                name: "Mencegah keracunan makanan",
-                desc: "Penelitian menunjukkan bahwa minyak daun mint berfungsi untuk menghentikan pertumbuhan bakteri E. coli dan Salmonella dalam makanan, sehingga dapat menurunkan risiko terjadinya keracunan makanan."
+                name: "Mengalahkan stres dan depresi",
+                desc: "Min adalah bagian penting dari aromaterapi. Baunya yang kuat dan menyegarkan dapat membantu mengatasi stres dan peremajaan makan pikiran. Min memiliki sifat adaptogenik yang mengatur kadar kortisol dan meningkatkan ketahanan alami tubuh terhadap stres. Adaptogen membantu menyeimbangkan tubuh dengan cara apa pun yang dibutuhkan. Dengan menghirup aroma min, pikiran Anda langsung tenang."
             }
         ],
         reference: [
             {
-                label: "Manfaat daun mint untuk kesehatan yang jangan dilewatkan",
-                url :"https://www.alodokter.com/manfaat-daun-mint-untuk-kesehatan-yang-ayang-dilewatkan"
+                ref: "Paramita Tasya, Sahputri Diza Liane. 2022. '10 Manfaat Daun Min, Atasi Masalah Kulit hingga Flu'. Available: https://www.viva.co.id/gaya-hidup/kesehatan-intim/1461586-manfaat-daun-min. [ Accessed 2 Mei 2023 ]"
             },
-            {
-                label: "Mint (tumbuhan)",
-                url :"https://id.wikipedia.org/wiki/Min_(tumbuhan)"
-            }
         ]
     },
     {
         id: 3,
         name: "Daun Kelor",
-        history: "Kelor atau merunggai (Moringa oleifera) adalah sejenis tumbuhan dari suku Moringaceae. Tumbuhan ini dikenal dengan nama lain seperti: limaran, moringa, ben-oil (dari minyak yang bisa diekstrak dari bijinya), drumstick (dari bentuk rumah benihnya yang panjang dan ramping), horseradish tree (dari bentuk akarnya yang mirip tanaman horseradish), dan malunggay di Filipina. Kelor adalah tanaman yang bisa tumbuh dengan cepat, berumur panjang, berbunga sepanjang tahun, dan tahan kondisi panas ekstrim. Tanaman ini berasal dari daerah tropis dan subtropis di Asia Selatan. Kelor umum digunakan sebagai bahan makanan dan obat di Indonesia. Biji kelor juga digunakan sebagai penjernih air skala kecil",
+        history: "Daun kelor mungkin kurang dikenal sebagai bahan makanan, tetapi tumbuhan ini sungguh memiliki nilai gizi dan manfaat kesehatan. Mengutip buku 'Manfaat dan Khasiat Daun Kelor untuk Kesehatan' (2022) oleh Tresno Saras, tanaman kelor memiliki nama latin Moringa oleifera dan disebut juga sebagai pohon ajaib. Kelor merupakan tanaman multiguna karena hampir seluruh bagiannya (akar, daun, polong, dan kulit batang) dapat dimanfaatkan. Nilai gizi tanaman ini terbilang cukup baik dan mampu menjadi solusi atas masalah kurang gizi untuk masyarakat dengan perekonomian rendah.",
         benefit: [
             {
-                name: "Menurunkan Kadar Gula darah",
-                desc: "Beberapa penelitian menunjukkan bahwa daun kelor dapat membantu menurunkan kadar gula darah. Satu studi di 30 wanita menunjukkan bahwa mengkonsumsi 1,5 sendok the (7 gram) bubuk daun kelor setiap hari selama tiga bulan mengurangi kadar gula darah puasa sebesar 13,5% rata-rata."
+                name: "Menurunkan tekanan darah",
+                desc: "Mengutip buku 'Manfaat dan Khasiat Daun Kelor untuk Kesehatan' (2022) oleh Tresno Saras, kandungan kalium dan antioksidan di dalam daun kelorlah yang berperan aktif untuk menjaga tekanan darah dalam tubuh."
             },
             {
-                name: "Mengurangi Peradangan",
-                desc: "Para ilmuwan percaya bahwa isothiocyanate adalah senyawa anti-inflamasi utama pada daun kelor, polong dan biji-bijian. Kelor mengurangi peradangan dengan menekan enzim peradangan dan protein dalam tubuh, dan konsentrat daun kelor dapat secara signifikan menurunkan peradangan dalam sel."
+                name: "Menurunkan kadar gula darah",
+                desc: "Mengutip Pharmeasy, daun kelor mengandung antioksidan lain, yaitu asam klorogenat, yang membantu menstabilkan kadar gula darah setelah makan. Selain itu, daun kelor mengandung isothiocyanate yang sempurna untuk menstabilkan kadar gula darah."
             },
             {
-                name: "Menangkal Radikal Bebas",
-                desc: "Antioksidan adalah senyawa yang bertindak melawan radikal bebas dalam tubuh. Kadar radikal bebas yang tinggi dapat menyebabkan stres oksidatif, yang berhubungan dengan penyakit kronis seperti penyakit jantung dan diabetes tipe 2. Beberapa senyawa tanaman antioksidan telah ditemukan dalam daun Moringa oleifera atau kelor."
+                name: "Melawan peradangan",
+                desc: "Manfaat daun kelor untuk kesehatan lainnya adalah melawan peradangan karena mengandung isothiocyanates yang bersifat anti-inflamasi. Daun kelor memiliki niazimicin yang diketahui mengontrol perkembangan sel kanker."
             },
             {
-                name: "Menurunkan Kadar Kolesterol Darah",
-                desc: "Memiliki kolesterol tinggi telah dikaitkan dengan peningkatan risiko penyakit jantung. Manfaat daun kelor untuk kesehatan dalam bentuk serbuk baik untuk jantung yang sehat, terutama dalam kontrol lipid darah, pencegahan pembentukan plak di arteri, dan penurunan kadar kolesterol."
+                name: "Menurunkan kolesterol",
+                desc: "Makan daun kelor diketahui menunjukkan penurunan yang cukup besar terhadap kadar kolesterol tinggi. Selain gandum, biji rami, dan almond, daun kelor adalah obat yang dapat diandalkan melawan kolesterol tinggi."
             },
             {
-                name: "Mendukung Kesehatan Otak",
-                desc: "Manfaat daun kelor untuk kesehatan otak dan fungsi kognitif dipengaruhi oleh aktivitas antioksidan dan neuro-enhancer. Ini juga telah diuji sebagai pengobatan untuk penyakit Alzheimer dengan hasil awal yang menguntungkan."
+                name: "Melindungi kesehatan hati",
+                desc: "Manfaat daun kelor untuk kesehatan hati kita. Misalnya, penderita penyakit tuberkulosis bisa mengurangi efek negatif obat anti-tuberkulosis dengan mengkonsumsi daun kelor. Daun ini mempercepat perbaikan sel hati dan memiliki konsentrasi polifenol yang tinggi. Polifenol bermanfaat untuk melindungi tubuh dari kerusakan oksidatif pada hati dan bahkan dapat menguranginya. Senyawa ini meningkatkan kadar protein di hati."
             },
             {
-                name: "Mencegah Kanker",
-                desc: "Manfaat daun kelor untuk kesehatan berikutnya adalah untuk mencegah kanker. Perkembangan kanker yang sering tidak disadari membuat banyak orang yang kena kanker, menyadari dia telah terkena kanker setelah memasuki stadium yang parah. Hal ini disebabkan proses pembentukan sel kanker memang membutuhkan waktu yang cukup lama."
+                name: "Meningkatkan kesehatan tulang",
+                desc: "Daun kelor merupakan sumber yang kaya kalsium dan fosfor. Kedua elemen ini dibutuhkan untuk meningkatkan kesehatan tulang. Hal tersebut karena daun kelor memiliki sifat anti-inflamasi, mereka membantu memerangi radang sendi dan bahkan dapat menyembuhkan tulang yang rusak."
             },
             {
-                name: "Meningkatkan Produksi ASI",
-                desc: "Daun kelor juga diketahui punya manfaat untuk meningkatkan produksi ASI pada ibu menyusui. Sebuah studi menyebutkan konsumsi daun kelor bisa meningkatkan produksi ASI pada hari keempat sampai kelima setelah ibu melahirkan bayi prematur."
+                name: "Menjaga kesehatan sistem syaraf",
+                desc: "Kandungan vitamin E dan C yang tinggi membuat daun kelor memiliki manfaat untuk memerangi degenerasi saraf dan membantu meningkatkan fungsi otak. Banyak kasus gangguan saraf yang menggunakan daun kelor untuk obat perawatannya menuai hasil yang positif. Daun tanaman ini mendukung kesehatan otak dan bekerja sebagai neuro-enhancer."
             },
             {
-                name: "Mengurangi Gejala Menopause",
-                desc: "Salah satu cara untuk mencegah masalah tulang akibat penurunan estrogen adalah dengan mengkonsumsi makanan kaya vitamin dan mineral. Daun kelor adalah salah satu tanaman yang kaya nutrisi yang punya manfaat penting dalam kesehatan tulang dan penyerapan kalsium."
+                name: "Menjaga kesehatan kulit dan rambut",
+                desc: "Daun kelor mengandung banyak antioksidan dan nutriri yang bisa menjaga kesehatan kulit dan rambut. Daun kelor memiliki sekitar 30 antioksidan. Antioksidan ini dapat memberikan manfaat daun kelor untuk mengurangi munculnya garis-garis halus dan kerutan, baik juga untuk kulit berjerawat. Daun kelor bisa meningkatkan warna kulit (skin tone) dan menambah kecerahan karena sifat pemurnian (purifying) dan sifat terapeutiknya."
             },
             {
-                name: "Menjaga Kesehatan Kulit",
-                desc: "Daun kelor juga punya manfaat kecantikan, khususnya untuk kulit wajah. Beberapa khasiat daun kelor untuk wajah diantaranya mencegah penuaan dini hinggga mengobati jerawat."
+                name: "Mencegah sel kanker",
+                desc: "Mengutip buku 'Manfaat dan Khasiat Daun Kelor untuk Kesehatan' (2022) oleh Tresno Saras, studi di Asian Pacific Journal of Cancer Prevention membuktikan bahwa manfaat daun kelor berpotensi untuk digunakan sebagai sumber alami senyawa anti-kanker. Menurut tes laboratorium, manfaat daun kelor untuk kesehatan adalah untuk memperlambat pertumbuhan sel kanker pankreas dan membantu pengobatan kanker lainnya."
             },
             {
-                name: "Meningkatkan Daya Ingat",
-                desc: "Kandungan antioksidan serta zat kimia yang ada dalam daun kelor, dipercaya dapat mengatasi stre dan peradangan di otak. Selain itu, adapula kandungna protein tinggi dalam daun kelor yang bisa meningkatkan produksi neorotransmittr. Ini akan mempengaruhi suasanan hati, emosi, dan kemampuan belajar. Tak hanya itu saja, daun kelor juga dapat meningkatkan daya ingat dengan mengubah aktivitas enzim pada area otak untuk pembelajaran dan memori."
+                name: "Menjaga kesehatan mata",
+                desc: "Manfaat daun kelor untuk kesehatan lainnya adalah meningkatkan kemampuan mata dalam melihat objek lebih jernih."
             },
             {
-                name: "Menjaga Kesehatan Mata",
-                desc: "Daun kelor mempunyai kandungan antioksidan serta betakaroten yang bermanfaat untuk membantu menjaga kesehatan mata. Untuk itu, daun moringa diklaim dapat menghentikan pelebaran pembuluh darah retina, emncegah penebalan membrane kapiler, sekaligus menghambat disfungdi retina."
+                name: "Melancarkan produksi ASI",
+                desc: "Daun kelor juga bisa meningkatkan produksi ASI. Manfaat daun kelor untuk kesehatan ini karena kandungan asam amino yang bisa menunjuang gizi ibu. Sebuah studi di Phoilippine Journal of Pediatrics, ibu dari bayi prematur yang mengkonsumsi suplemen daun kelor mengalami peningkatan produksi ASI sebanyak 125 persen."
             }
         ],
         reference: [
             {
-                label: "MANFAAT DAUN KELOR UNTUK KESEHATAN",
-                url: "https://diskes.badungkab.go.id/artikel/47615-manfaat-daun-kelor-untuk-kesehatan"
-            },
-            {
-                label: "Kelor",
-                url: "https://id.wikipedia.org/wiki/Kelor"
+                ref: "Sicca Shintaloka Pradita. 2022. '11 Manfaat Daun Kelor untuk Kesehatan yang Perlu Diketahui'. Available: https://health.kompas.com/read/22K25163000968/11-manfaat-daun-kelor-untuk-kesehatan-yang-perlu-diketahui?page=all. [Accessed 2 Mei 2023]"
             },
         ]
     },
     {
         id: 4,
         name: "Daun Jambu Biji",
-        history: "Jambu biji (Psidium guajava) atau sering juga disebut jambu batu, jambu siki dan jambu klutuk adalah tanaman tropis yang berasal dari Brasil, disebarkan ke Indonesia melalui Thailand. Jambu batu memiliki buah yang berwarna hijau dengan daging buah berwarna hijau atau merah dan berasa asam-manis. Buah jambu batu dikenal mengandung banyak vitamin C.",
+        history: "Tanaman jambu biji yang banyak tumbuh di Indonesia memiliki banyak manfaat bagi kesehatan. Bukan hanya buahnya, ternyata daun jambu biji juga mengandung banyak nutrisi yang tak kalah menyehatkan. Manfaat daun jambu biji berasal dari kandungan antioksidan seperti vitamin C, serta kalium, dan serat. Dikutip dari WebMD, daun tanaman ini kerap digunakan sebagai obat diare di beberapa negara, seperti India dan China.",
         benefit: [
             {
-                name: "Menyehatkan sistem pencernaan",
-                desc: "Ekstrak atau teh herbal daun jambu biji sejak lama digunakan untuk mengatasi berbagai masalah pencernaan, termasuk diare, sembelit, perut kembung, dan nyeri lambung."
-            },
-            {
-                name: "Meringankan nyeri menstruasi",
-                desc: "Beberapa penelitian menunjukkan bahwa mengonsumsi ekstrak daun jambu biji dapat mengurangi gejala nyeri menstruasi, misalnya kram perut. Khasiatnya ini bahkan dinilai sama efektifnya dengan obat pereda rasa sakit, seperti ibuprofen."
-            },
-            {
                 name: "Menurunkan kadar gula darah",
-                desc: "Daun jambu biji juga bisa dimanfaatkan untuk menurunkan kadar gula darah, baik penderita diabetes maupun orang yang berisiko mengalami diabetes. Beberapa penelitian menyatakan bahwa mengonsumsi teh daun jambu biji setelah makan dapat menekan lonjakan kadar gula darah."
+                desc: "Beberapa penelitian membuktikan bahwa daun jambu biji dapat meningkatkan kontrol gula darah. Khasiat ini dapat membantu mencegah diabetes. Dilansir dari laman Healthline, studi pada 19 orang mencatat, mengonsumsi air rebusan atau teh daun jambu biji menurunkan kadar gula darah setelah makan. Efek ini bertahan selama dua jam setelah mengonsumsi rebusan daun jambu biji."
             },
             {
-                name: "Menjaga kesehatan jantung",
-                desc: "Selain mencegah dan mengatasi diabetes, kandungan dalam ekstrak daun jambu biji juga memiliki efek menurunkan tekanan darah dan kolesterol jahat, serta meningkatkan kolesterol baik."
+                name: "Meredakan nyeri menstruasi",
+                desc: "Manfaat daun jambu biji lainnya, termasuk meredakan dismenore atau nyeri perut akibat menstruasi. Hal ini terbukti dalam studi pada 197 wanita yang mengalami gejala nyeri saat menstruasi. Penelitian itu menunjukkan, mereka yang mengonsumsi 6 mg ekstrak daun jambu biji setiap hari mengalami penurunan intensitas rasa nyeri."
             },
             {
-                name: "Menghambat pertumbuhan sel kanker",
-                desc: "Daun jambu biji mengandung zat yang bersifat antikanker. Beberapa riset menunjukkan bahwa ekstrak daun jambu biji dapat menghambat pertumbuhan sel kanker, termasuk kanker prostat, kanker usus besar, leukemia, dan melanoma."
+                name: "Mengobati diare",
+                desc: "Di beberapa pengobatan tradisional, daun jambu biji terkenal akan khasiat untuk pengobatan anti-diare. Manfaat daun jambu biji ini pun akhirnya dibuktikan oleh beberapa penelitian laboratorium. Misalnya seperti pada penelitian 2008, ekstrak daun tanaman ini dapat membantu mengurangi intensitas dan durasi diare."
+            },
+            {
+                name: "Efek anti kanker",
+                desc: "Tingginya kadar antioksidan dalam daun jambu biji membantu melawan radikal bebas dalam tubuh. Radikal bebas dapat menyebabkan sel tubuh terkena stres oksidatif, dan berakhir dengan peningkatan risiko sejumlah penyakit berbahaya termasuk kanker. Untuk itu, salah satu manfaat daun jambu biji adalah sebagai zat anti-kanker atau pelawan kanker."
+            },
+            {
+                name: "Meningkatkan imun tubuh",
+                desc: "Kadar vitamin C yang rendah dapat berakibat pada peningkatan risiko infeksi dan penyakit. Sama seperti buahnya, daun jambu biji juga mengandung vitamin C. Vitamin ini berperan penting dalam menjaga sistem kekebalan tubuh agar tetap sehat. Bukan hanya itu, vitamin C juga terbukti mengurangi durasi pilek, seperti menurut penelitian pada 2013."
+            },
+            {
+                name: "Membunuh bakteri penyebab jerawat",
+                desc: "Antioksidan dalam daun jambu biji dapat memberikan keajaiban pada kulit, termasuk kulit wajah. Antioksidan membantu melindungi kulit dari kerusakan akibat radikal bebas, sehingga dapat memperlambat proses penuaan kulit atau keriput. Bahkan, manfaat daun jambu biji juga termasuk membantu mengobati jerawat jika dioleskan langsung ke kulit."
             }
         ],
         reference: [
             {
-                label: "5 Manfaat Daun Jambu Biji untuk Kesehatan",
-                url: "https://www.alodokter.com/ambil-manfaat-daun-jambu-biji-tidak-hanya-buahnya"
-            },
-            {
-                label: "Jambu biji",
-                url: "https://id.wikipedia.org/wiki/Jambu_biji"
+                ref: "Putri Diva Lufiana. 2022. '6 Manfaat Daun Jambu Biji, Efek Anti-kanker dan Lawan Bakteri Jerawat'. Available https://www.kompas.com/tren/read/2022/11/23/063000165/6-manfaat-daun-jambu-biji-efek-anti-kanker-dan-lawan-bakteri-jerawat?page=all. [ Accessed 2 Mei 2023 ]"
             }
         ]
     },
@@ -205,7 +201,7 @@ export const data = [
 export const items = [
     { 
         id: 1,
-        name: 'Daun Mint', 
+        name: 'Daun Min', 
     },
     { 
         id: 2,
